@@ -1,0 +1,64 @@
+--- 
+- !Data.User
+  achievements: !Data.Achievements
+    amateur: true
+    beginner: true
+    fifthWin: true
+    firstWin: true
+    flush: true
+    fourOfAKind: true
+    fullHouse: true
+    newcomer: true
+    pro: true
+    slowPlayer: true
+    tenThousand: true
+    tightPlayer: true
+  forename: Anton
+  password: xxx
+  secretAnswer: xxx
+  secretQuestion: Favourite Team?
+  statistics: !Data.Statistics
+    bluffs: 4
+    flopsSeen: 306
+    flopsWon: 14
+    handsDealt: 679
+    lessonFiveScore: 100
+    lessonFourScore: 100
+    lessonOneScore: 83
+    lessonSixScore: 89
+    lessonThreeScore: 83
+    lessonTwoScore: 100
+    preflopsWon: 26
+    riversWon: 7
+    showdownsWon: 100
+    slowPlays: 5
+    strongestHand: "14 H,14 C,14 S,13 H,13 D,"
+    tightPlays: 14
+    tournamentCosts: 81000
+    tournamentWinnings: 15999
+    tournamentsWon: 5
+    turnsWon: 4
+  surname: Rand
+  username: Anton1990
+- !Data.User
+  achievements: !Data.Achievements
+    beginner: true
+    newcomer: true
+  forename: " John"
+  password: xxx
+  secretAnswer: xxx
+  secretQuestion: Favourite Colour?
+  statistics: !Data.Statistics
+    lessonTwoScore: 100
+  surname: Smith
+  username: JohnSmith
+- !Data.User
+  achievements: !Data.Achievements
+    newcomer: true
+  forename: Test
+  password: xxx
+  secretAnswer: xxx
+  secretQuestion: testing
+  statistics: !Data.Statistics {}
+  surname: Case
+  username: Testing
